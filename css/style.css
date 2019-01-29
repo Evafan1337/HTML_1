@@ -1,0 +1,204 @@
+
+header,
+footer
+{
+	background-color:black;
+}
+
+a
+{
+	color:#11C604;
+	text-decoration:none;
+}
+
+ul
+{
+	list-style-type:none;
+}
+
+body
+{
+	font-family: 'Press Start 2P', cursive;
+	font-size:16px;
+	line-height:16px;
+	color:#11C604;
+	background-color:black;
+	/* commodore
+	MeninBlue
+	Karma Suture
+	Kongtext Regular 
+	back to 1982 */
+}
+
+button
+{
+	font-family: 'Press Start 2P', cursive;
+	font-size:8px;
+	color:#11C604;
+}
+
+.container-main,
+.container-wide
+{
+	width:1040px;
+	margin:0 auto;
+
+}
+
+.header-page-wrapper
+{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.header-top
+{
+	padding-top:30px;
+	padding-bottom:30px;
+	display:flex;
+	justify-content:center;
+}
+
+.header-top a
+{
+	font-size:30px;
+	line-height:30px;
+	text-decoration:none;
+}
+
+.footer-page a:hover,
+.footer-nav a:hover,
+.header-nav a:hover,
+.header-top a:hover
+{
+	color:#2ffc3d;
+}
+
+.footer-page a:active,
+.footer-nav a:active,
+.header-nav a:active,
+.header-top a:active
+{
+	color:#008e09;
+}
+
+.footer-nav ul,
+.header-nav ul
+{
+	display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+
+.header-nav ul
+{
+    width: 910px;
+}
+
+.footer-nav ul
+{
+    width: 760px;
+}
+
+.footer-nav li,
+.header-nav li
+{
+	padding-right:15px;
+}
+
+.container-main
+{
+	width:940px;
+}
+
+.main-page-wrapper
+{
+	padding-top:45px;
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+
+.main-left,
+.main-right
+{
+	width:50%;
+}
+
+.main-left li
+{
+	padding-bottom:90px;
+}
+
+.main-right
+{
+	height:350px;
+}
+
+.main-change-theme ul
+{
+	display:flex;
+    margin-left: 300px;
+	padding-left:0px;
+}
+
+.main-change-theme li
+{
+	padding-right:15px;
+}
+
+.main-change-theme button
+{
+	border:0;
+	outline:0;
+	background-color:transparent;
+	width:100px;
+	height:100px;
+	border:2px dotted #11C604;
+	/* border-radius:50%; */
+}
+
+.main-change-theme button:hover
+{
+	color:#2ffc3d;
+	border:2px dotted #2ffc3d;
+}
+
+.main-change-theme button:active
+{
+	color:#008e09;
+	border:2px dotted #008e09;
+	/* border:3px dashed #008e09; */
+}
+
+.footer-page-wrapper
+{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.popup-container
+{
+	width:470px;
+	margin:0 auto;
+}
+
+.popup-links-wrapper,
+.popup-about-project-wrapper 
+{
+	border:2px dotted #11C604;
+}
+
+.popup-links-wrapper h2,
+.popup-about-project-wrapper h2
+{
+	text-align:center;
+}
+
+.popup-links-wrapper p,
+.popup-about-project-wrapper p
+{
+	text-align:center;
+	font-size:13px;
+}
